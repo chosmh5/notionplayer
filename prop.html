@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Cards</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Dancing+Script&family=Roboto+Mono:wght@500&display=swap');
+
+        body {
+            background-color: #131212;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Cinzel', serif;
+            overflow-x: hidden;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .card {
+            width: 280px !important;
+            height: 450px !important;
+            background: linear-gradient(145deg, #1a1a1a, #0d0d0d);
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+            color: white;
+            text-align: center;
+            transition: 0.3s ease-in-out;
+            margin: 10px;
+            text-decoration: none;
+        }
+        
+        /* 카드별 네온 효과 및 타이틀 색상 */
+        .card:nth-child(1) {
+            box-shadow: 0 0 10px rgba(239, 37, 205, 0.5);
+        }
+        .card:nth-child(1) .ti_tle {
+            color: #EF25CD;
+        }
+        .card:nth-child(1):hover {
+            box-shadow: 0 0 20px rgba(239, 37, 205, 0.8);
+        }
+        
+        .card:nth-child(3) {
+            box-shadow: 0 0 10px rgba(25, 181, 254, 0.5);
+        }
+        .card:nth-child(3) .ti_tle {
+            color: #19B5FE;
+        }
+        .card:nth-child(3):hover {
+            box-shadow: 0 0 20px rgba(25, 181, 254, 0.8);
+        }
+        
+        .card:nth-child(4) {
+            box-shadow: 0 0 10px rgba(46, 204, 113, 0.5);
+        }
+        .card:nth-child(4) .ti_tle {
+            color: #2ECC71;
+        }
+        .card:nth-child(4):hover {
+            box-shadow: 0 0 20px rgba(46, 204, 113, 0.8);
+        }
+        
+        .card:nth-child(5) {
+            box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
+        }
+        .card:nth-child(5) .ti_tle {
+            color: #FFA500;
+        }
+        .card:nth-child(5):hover {
+            box-shadow: 0 0 20px rgba(255, 165, 0, 0.8);
+        }
+        
+        .card:nth-child(2) {
+            box-shadow: 0 0 10px rgba(255, 69, 0, 0.5);
+        }
+        .card:nth-child(2) .ti_tle {
+            color: #FF4500;
+        }
+        .card:nth-child(2):hover {
+            box-shadow: 0 0 20px rgba(255, 69, 0, 0.8);
+        }
+        
+        .card:nth-child(6) {
+            box-shadow: 0 0 10px rgba(128, 0, 128, 0.5);
+        }
+        .card:nth-child(6) .ti_tle {
+            color: #800080;
+        }
+        .card:nth-child(6):hover {
+            box-shadow: 0 0 20px rgba(128, 0, 128, 0.8);
+        }
+        
+        .card img {
+            width: 100%;
+            height: 60%;
+            object-fit: cover;
+            opacity: 0.85;
+        }
+        
+        .info .small-text {
+            font-size: 12px;
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        .info .smaller-text {
+            font-size: 10px;
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        .info h2 {
+            margin: 17px 0;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+        
+        .quote {
+            font-family: 'Dancing Script', cursive;
+            font-size: 13px;
+            color: gray;
+            margin-top: 20px;
+        }
+        
+        .ti_tle {
+            font-family: 'Arial', fantasy;
+            font-size: 15px;
+            margin-top: 11px;
+        }       
+    </style>
+</head>
+<body>
+    <body>
+        <a href="https://www.notion.so/13e840f2724e805fa7aace540835005a" class="card">
+            <img src="https://img.notionusercontent.com/s3/prod-files-secure%2Fcab14d63-3cd3-4303-832e-dd5ec5b25cad%2Fbf1b4cf0-6739-4314-8a31-a221ad8ff5ea%2FScreenshot20251232245053450.png/size/w=1360?exp=1741857738&sig=sUxWIJ6mur1F3BPgBmJQHBy5lxzwiAFNgrJKLHM3FI0">
+            <div class="info">
+                <h2 class="ti_tle">૯੮A Onion</h2>
+                <p class="small-text">Code Name: Hecate</p>
+                <p class="small-text">Affiliation: None</p>
+                <p class="quote">They fell in love with it like a kid.</p>
+            </div>
+        </a>
+        </div>
+            <a href="https://www.notion.so/187840f2724e801b9c71ea5b2ba86b11" class="card">
+            <img src="https://img.notionusercontent.com/s3/prod-files-secure%2Fcab14d63-3cd3-4303-832e-dd5ec5b25cad%2Ffe88eb8f-1922-4932-98ed-d20a219dd2a1%2Fpiiixx6.png/size/w=1420?exp=1741857811&sig=c9YfJvL55IhNjw-g6oV4fW6FI-J6gHwZvmp-g64n08A">
+            <div class="info">
+                <h2 class="ti_tle">Ogura Shaon</h2>
+                <p class="small-text">Code Name: Thanatos</p>
+                <p class="small-text">Affiliation: 
+                <span class="smaller-text">Red Zone Defense 1st Combat Team</span></p>
+                <p class="quote">Honor yesterday and look forward to tomorrow.</p>
+            </div>
+        </a>
+        </div>
+            <a href="https://www.notion.so/19e840f2724e80feb3c1d40e8ceefb82" class="card">
+            <img src="https://img.notionusercontent.com/s3/prod-files-secure%2Fcab14d63-3cd3-4303-832e-dd5ec5b25cad%2F3936f8f4-0d24-49df-9e36-eb5525a557a0%2Freregg14.png/size/w=1420?exp=1741860431&sig=3_xMwDx1pTicqq458JHDXW0YkhmjV8QZdiV_Gk_JSxM">
+            <div class="info">
+                <h2 class="ti_tle">Shizuma Komai</h2>
+                <p class="small-text">Code Name: Catastrophe</p>
+                <p class="small-text">Affiliation: Non-Aligned Villain</p>
+                <p class="quote">Even if the world takes your tears away, Go forward.</p>
+            </div>
+        </a>
+        </div>
+            <a href="https://www.notion.so/1ac840f2724e805fbff8d1640bf70ce4" class="card">
+            <img src="https://img.notionusercontent.com/s3/prod-files-secure%2Fcab14d63-3cd3-4303-832e-dd5ec5b25cad%2F0e6a3097-7e01-4950-b8cc-af8bcc0fc7bc%2Ffinaan_art_scale.png/size/w=1420?exp=1741860457&sig=w32CSDE98-DGzN7Tvpnu9zkuMn1h51wGQ3MXFNWNHas">
+            <div class="info">
+                <h2 class="ti_tle">Shizuma Forte</h2>
+                <p class="small-text">Code Name: Trainer</p>
+                <p class="small-text">Affiliation: Inítĭum Caporegime</p>
+                <p class="quote">I love you, my child.</p>
+            </div>
+        </a>
+        </div>
+        <div class="card">
+            <img src="https://img.notionusercontent.com/s3/prod-files-secure%2Fcab14d63-3cd3-4303-832e-dd5ec5b25cad%2F4cedff5b-3a40-4c9b-8d1d-121daba7e344%2F0ef41313-4940-4267-ab17-0494076bb8f5.jpg/size/w=1360?exp=1741861791&sig=1NumjcqGuwVPzNjzc9QdJgpANqGC06YRqs0ABPFsMD8">
+            <div class="info">
+                <h2 class="ti_tle">Setsuna Lavoisier</h2>
+                <p class="small-text">Code Name: Blue Amulet</p>
+                <p class="small-text">Affiliation: Dead</p>
+                <p class="quote">Miracle, did you make it?</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://img.notionusercontent.com/s3/prod-files-secure%2Fcab14d63-3cd3-4303-832e-dd5ec5b25cad%2Fd7ba9d4a-8e7f-46c7-a426-e9ac65a8534f%2F91e21fa3-f3cf-45d5-a5d5-08fd0ac6f9f0.png/size/w=1360?exp=1741861006&sig=HoSjjSp8-CWYOHPAngz5JWc0ELzmjX5XHn9J7BlI9KY">
+            <div class="info">
+                <h2 class="ti_tle">Shizuma Hiro</h2>
+                <p class="small-text">Code Name: Refugee</p>
+                <p class="small-text">Affiliation: Dead</p>
+                <p class="quote">This life to Southern Cross.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
