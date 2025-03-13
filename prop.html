@@ -10,7 +10,7 @@
         body {
             background-color: #131212;
             display: flex;
-            justify-content: center;
+            justify-content: first baseline;
             align-items: auto;
             font-family: 'Cinzel', serif;
             overflow-x: hidden;
@@ -18,8 +18,8 @@
             padding: 20px;
         }
         .card {
-            width: 239px !important;
-            height: 410px !important;
+            width: 227px !important;
+            height: 390px !important;
             background: linear-gradient(145deg, #1a1a1a, #0d0d0d);
             border-radius: 15px;
             overflow: hidden;
@@ -64,13 +64,13 @@
         }
         
         .card:nth-child(5) {
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.75);
         }
         .card:nth-child(5) .ti_tle {
             color: #f9fffc;
         }
         .card:nth-child(5):hover {
-            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.95);
         }
         
         .card:nth-child(2) {
@@ -130,7 +130,6 @@
         }       
     </style>
 </head>
-<body>
     <body>
         <a href="https://www.notion.so/13e840f2724e805fa7aace540835005a" class="card">
             <img src="https://img.notionusercontent.com/s3/prod-files-secure%2Fcab14d63-3cd3-4303-832e-dd5ec5b25cad%2Fbf1b4cf0-6739-4314-8a31-a221ad8ff5ea%2FScreenshot20251232245053450.png/size/w=1360?exp=1741857738&sig=sUxWIJ6mur1F3BPgBmJQHBy5lxzwiAFNgrJKLHM3FI0">
@@ -158,7 +157,8 @@
             <div class="info">
                 <h2 class="ti_tle">Shizuma Komai</h2>
                 <p class="small-text">Code Name: Catastrophe</p>
-                <p class="small-text">Affiliation: Non-Aligned Villain</p>
+                <p class="small-text">Affiliation: 
+                <span class="smaller-text">Non-Aligned Villain</span></p>
                 <p class="quote">Even if the world steals your tears away.</p>
             </div>
         </a>
@@ -168,7 +168,8 @@
             <div class="info">
                 <h2 class="ti_tle">Shizuma Forte</h2>
                 <p class="small-text">Code Name: Trainer</p>
-                <p class="small-text">Affiliation: Inítĭum Caporegime</p>
+                <p class="small-text">Affiliation: 
+                <span class="smaller-text">Inítĭum Caporegime</span></p>
                 <p class="quote">I love you, my child.</p>
             </div>
         </a>
@@ -189,7 +190,7 @@
                 <p class="small-text">Code Name: Refugee</p>
                 <p class="small-text">Affiliation: Dead</p>
                 <p class="quote">This life to Southern Cross.</p>
-            </div>
+            </div>       
         </div>
     </div>
 </body>
